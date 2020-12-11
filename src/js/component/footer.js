@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 const footer = props => {
 	return (
-		<footer className="page bg-dark fixed-bottom text-white py-4">
-			<div className="container">
+		<footer className="page bg-dark fixed-bottom text-white py-2">
+			<div className="d-flex flex-row">
 				{/* <!-- Social buttons --> */}
-				<ul className="list-unstyled list-inline text-center">
+				<ul className="list-unstyled list-inline text-center mx-auto">
 					<li className="list-inline-item">
 						<a className="btn-floating btn-fb mx-1">
 							<i className="fab fa-facebook-f"> </i>
@@ -34,8 +34,8 @@ const footer = props => {
 					</li>
 				</ul>
 				{/* <!-- Social buttons --> */}
+				<div className="footer-copyright">© Armando</div>
 			</div>
-			<div className="footer-copyright text-center py-3">© Armando</div>
 		</footer>
 	);
 };
